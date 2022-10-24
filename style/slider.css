@@ -1,0 +1,12 @@
+.slider {
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 500px;
+}

@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
     <link rel="stylesheet" href="style/navbar.css" />
+    <link rel="stylesheet" href="style/slider.css">
     <title>Sunquin | Coffee's House</title>
   </head>
   <body>
     <!-- Parte Navbar -->
     <header id="area-navegacao">
       <span class="logo-span">
-        <a href="#"><img class="logo" src="img/logo.jpg" alt="Logo do site, quando precionado, voltará para a página principal." /></a>
+        <a href="#"><img class="logo" src="img/nav/logo.jpg" alt="Logo do site, quando precionado, voltará para a página principal." /></a>
         <p>Sulquin Coffee's House</p>
       </span>
       <nav>
@@ -25,12 +26,54 @@
         </ul>
       </nav>
       <span>
-        <button class="carrinho"><img src="img/basket.svg" alt="" /></button>
+        <button class="carrinho"><img src="img/nav/basket.svg" alt="" /></button>
         <a href="#"><button class="login">Entrar | Registrar</button></a>
       </span>
     </header>
     <!-- Fim Navbar -->
 
     <!-- Parte Slider -->
+    <div class="slider">
+      <!-- Slides part -->
+      <div class="slides">
+        <!-- Radio buttons -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <!-- Slider imgs -->
+        <div class="img first">
+          <img src="img/slider/cidade.jpeg" alt="Uma foto da cidade de pimba">
+        </div>
+        <div class="img">
+          <img src="img/slider/esportes.jpeg" alt="Uma foto da bola de Tênis">
+        </div>
+        <div class="img">
+          <img src="img/slider/gato.jpeg" alt="Uma foto de uma gato fofo">
+        </div>
+        <div class="img">
+          <img src="img/slider/abstrato.jpeg" alt="Uma foto de um sla">
+        </div>
+
+        <!-- Navegation auto -->
+        <div class="navegation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+
+      <!-- Label part -->
+      <div class="manual-navegation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+    <script src="JS/slider.js"></script>
   </body>
 </html>
