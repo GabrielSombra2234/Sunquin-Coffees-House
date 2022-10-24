@@ -1,0 +1,115 @@
+/**********************
+* Formatando o header
+*/
+#area-navegacao {
+    background-color: #048444;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 12px 2%;
+}
+
+/*********************
+** Formatando o logo
+*/
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.logo:hover {
+    opacity: 75%;
+    transition: 500ms;
+}
+
+.logo-span p {
+    color: #f0f8ff;
+}
+
+.logo-span p:hover {
+    text-decoration: underline;
+}
+
+/************************
+* Formatando a navegação
+*/
+nav ul {
+    margin: 10px 0 0 0;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.navegacao li a {
+    padding: 12px;
+    margin-right: 18px;
+    color: #f0f8ff;
+}
+
+.navegacao li a:hover {
+    color: #048444;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**********************
+** Formatando os Botões
+*/
+#area-navegacao span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#area-navegacao span p {
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.login {
+    border-style: solid;
+    border-color: #23b872;
+    background-color: #198754;
+    font-size: 15px;
+    color: #f0f8ff;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #157347;
+}
+
+.carrinho {
+    /* border: 1px solid red; */
+    border-style: solid;
+    border-color: #b8bec4;
+    background-color: #f0f8ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.carrinho:hover {
+    background-color: #a8aeb4;
+}
+
+.carrinho img {
+    width: 20px;
+    height: 20px;
+}
